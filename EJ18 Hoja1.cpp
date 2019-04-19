@@ -19,6 +19,11 @@ int main()
 	printf("Ingrese la posicion del equipo en la tabla: ");
 	cin >> posi;
 
+	if (posi <= 0)
+	{
+		cout << "Ingrese una posicion mayor a 0";
+	}
+
 	if (posi >= 1 && posi <= 4)
 	{
 		cout << "El equipo seleccionado ira al mundial !!!!";
@@ -39,5 +44,5 @@ int main()
 	}
 
 
-	_getch(); 
+	_getch();
 }
