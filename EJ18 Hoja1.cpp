@@ -39,5 +39,5 @@ int main()
 	}
 
 
-	_getch();
+	_getch(); 
 }
