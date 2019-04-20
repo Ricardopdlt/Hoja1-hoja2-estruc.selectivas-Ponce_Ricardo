@@ -36,7 +36,7 @@ int main()
 		}
 
 		else
-
+		{
 			if (monto >= 5000 && monto <= 10000)
 
 			{
@@ -49,9 +49,10 @@ int main()
 
 			{
 
-				montof = monto * 1.01 ;
+				montof = monto * 1.01;
 
 			}
+		}
 
 		cout << "El monto total a pagar es de $ " << montof;// salida
 
