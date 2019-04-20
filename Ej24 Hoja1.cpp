@@ -1,4 +1,4 @@
-//Ej23 Hoja1
+//Ej24 Hoja1
 
 #include <iostream>
 #include <conio.h>
